@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sedan Cars Gallery</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+        .gallery-item {
+            margin: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            border-radius: 10px;
+            overflow: hidden;
+            background-color: #fff;
+            width: 300px;
+            text-align: center;
+        }
+        .gallery-item img {
+            width: 100%;
+            height: auto;
+        }
+        .gallery-item .caption {
+            padding: 15px;
+            font-size: 18px;
+            color: #333;
+        }
+        .gallery-item:hover {
+            transform: scale(1.05);
+            transition: transform 0.3s ease;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Sedan Cars Gallery</h1>
+
+    <div class="gallery">
+        <!-- SUV 1 -->
+        <div class="gallery-item">
+            <img src="charger.jpg" alt="Sedan 1">
+            <div class="caption">Dodge Charger R/T</div>
+        </div>
+
+        <!-- SUV 2 -->
+        <div class="gallery-item">
+            <img src="ChargerSRT.avif" alt="Sedan 2">
+            <div class="caption">Dodge Charger SRT</div>
+        </div>
+
+        <!-- SUV 3 -->
+        <div class="gallery-item">
+            <img src="Dodge-SRT.avif" alt="Sedan 3">
+            <div class="caption">Dodge Challenger SRT</div>
+        </div>
+
+        <!-- SUV 4 -->
+        <div class="gallery-item">
+            <img src="https://via.placeholder.com/300x200" alt="Sedan 4">
+            <div class="caption">Chevrolet Tahoe</div>
+        </div>
+
+        <!-- SUV 5 -->
+        <div class="gallery-item">
+            <img src="https://via.placeholder.com/300x200" alt="Sedan 5">
+            <div class="caption">Jeep Grand Cherokee</div>
+        </div>
+
+        <!-- SUV 6 -->
+        <div class="gallery-item">
+            <img src="https://via.placeholder.com/300x200" alt="Sedan 6">
+            <div class="caption">Nissan Rogue</div>
+        </div>
+    </div>
+
+</body>
+</html>
